@@ -4,6 +4,15 @@ A computer vision pipeline for tracking players, the shuttle, and court geometry
 
 **Status:** Work in progress — core detection/tracking pipeline is functional
 
+## Demo
+
+F | MS | Anthony Sinisuka GINTING (INA) vs Kento MOMOTA (JPN) [3] | BWF 2018
+![](Gifs/MOMvsGIN.gif)
+
+YONEX All England Open 2021 | Day 5: Lee Zii Jia (MAS) [6] vs Viktor Axelsen (DEN) [2]
+![](Gifs/VAvsLZZ.gif)
+
+
 ## Overview
 
 This project applies YOLO11-based object and pose detection to badminton match video to enable automated match analysis. It combines three detection tasks — player tracking, shuttle tracking, and court keypoint detection — into a single OOP pipeline, using each component's output (e.g., court geometry) to constrain and improve the others (e.g., filtering player detections to valid in-bounds regions).
