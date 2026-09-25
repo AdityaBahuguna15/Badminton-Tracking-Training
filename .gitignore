@@ -1,0 +1,15 @@
+Baddy/
+DataSets/
+Models/
+Output/
+runs/
+Tracker_stubs/
+Input_PicVids/
+backups/
+FirstRUN/
+*.pt
+*.avi
+*.mp4
+__pycache__/
+*.pyc
+EOF

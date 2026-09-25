@@ -1,0 +1,7 @@
+- Trained Yolo Model on badminton shuttle rallies with upto 70k+ images 
+- Bounding Box Matching (Object Tracking): 
+   - The tracker compares prev and current box coords and decides whether they are the same object or not
+   - Exmaple: "This shuttle in frame 2 is probably the same shuttle from frame 1."
+   - Stablizes missed shuttle frames, filling the gaps and trajectory is smooth
+   - Commond methods: IOU Matching, Distance Matching, Motion prediction
+   - Consider using ByteTrack
